@@ -1,0 +1,36 @@
+body {
+    font-family: "Source Han Sans",sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.link-text {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.image-wrapper img {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* スマホ用のスタイル */
+@media (max-width: 800px) {
+    .image-wrapper img {
+        max-width: calc(100% - 20px);  /*スマホでの画像の最大幅*/
+    }
+}
